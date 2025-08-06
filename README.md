@@ -9,7 +9,7 @@
 ### Why I chose the four classification models I chose?
 will be answered after Im done :))
 
-### Why train the 4 models 5 times for "slightly different" dataset?
+### Why train the 4 models 5 times for "slightly different" datasets?
 for learning and experimentation purposes
 
 ### What did i learn?
