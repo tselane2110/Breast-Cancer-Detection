@@ -2,7 +2,7 @@
 ## Objective: to predict whether a breast tumor is benign or malignant
 
 ### What this file will include (after its done)?
-- implementation of PCA (Principal Component Analysis) from scratch
+- implementation of PCA (Principal Component Analysis)
 - four classfication models (Logistic Regression, SVM, Decision Trees, Naive Bayes) trained 5 times for slightly different datasets, 3 times without PCA and 2 times with PCA
 - Conclusion for all results separately and in general
 
