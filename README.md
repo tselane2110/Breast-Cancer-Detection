@@ -30,4 +30,13 @@ flowchart TD
     E --> F[Evaluate Model]
     H[New Unseen Data] --> I[Apply Saved PCA<br/>Transformation]
     I --> J[Use Trained Model<br/>for Prediction]
+```
+### ⚠️ Special Advice (if u use this code file) 
+- **Ensure** PCA is always fitted on training groups first, and then the same transformation is applied to the corresponding testing groups. Otherwise, the resulting Principal Components (PCs) may end up with different or inconsistent column names between training and testing, which can cause confusion and errors.
+- Feel free to open an issue if you encounter any problems.  
+  
+### Future Improvements
+
+- Refactor the PCA implementation to make it more efficient and organized when applying it separately on training and testing data (to solve the issue mentioned in the `special advice`. While the current code works, the structure can be improved for clarity and maintainability.
+  
 
